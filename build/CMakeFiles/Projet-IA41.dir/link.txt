@@ -1,0 +1,1 @@
+/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/Projet-IA41.dir/link.d "CMakeFiles/Projet-IA41.dir/src/main.cpp.o" "CMakeFiles/Projet-IA41.dir/src/view/Button.cpp.o" "CMakeFiles/Projet-IA41.dir/src/view/MainFrame.cpp.o" -o bin/Projet-IA41  -lsfml-graphics -lsfml-window -lsfml-system

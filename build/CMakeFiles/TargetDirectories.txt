@@ -1,0 +1,3 @@
+/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir
+/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/edit_cache.dir
+/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/rebuild_cache.dir
