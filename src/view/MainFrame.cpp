@@ -77,7 +77,7 @@ void MainFrame::run()
 }
 
 MainFrame::MainFrame() : window(sf::VideoMode({700, 400}), "SFML Application"),
-                         font("AdwaitaMono-BoldItalic.ttf"),
+                         font("src/view/AdwaitaMono-BoldItalic.ttf"),
                          title(font, "Rasender Roboter", 90),
                          startButton(font, "Start", 0, 0, 150, 60),
                          settingsButton(font, "Settings", 0, 0, 150, 60),
