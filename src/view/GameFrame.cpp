@@ -14,8 +14,9 @@
 
 using namespace GameConfig;
 
-GameFrame::GameFrame()
-    : window(sf::VideoMode({1000, 650}), "Rasender Roboter"),
+
+GameFrame::GameFrame(sf::RenderWindow& window)
+    : window(window),
       font(kFontPath),
       clockText(font, "00:00", 48)
 {
@@ -25,7 +26,6 @@ GameFrame::GameFrame()
     setPlayers({"Alice", "Bob", "Charlie"});//test players to remove
     updateLayout();
 }
-
 void GameFrame::setPlayers(std::vector<std::string> names)
 {
     if (names.size() < 2)
@@ -221,4 +221,3 @@ void GameFrame::run()
         draw();
     }
 }
-

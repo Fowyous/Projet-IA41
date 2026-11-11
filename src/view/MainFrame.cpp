@@ -3,6 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include "GameFrame.h"
 #include <iostream>
 
 void MainFrame::updateLayout()
@@ -79,8 +80,8 @@ void MainFrame::run()
 MainFrame::MainFrame() : window(sf::VideoMode({700, 400}), "SFML Application"),
                          font("src/view/AdwaitaMono-BoldItalic.ttf"),
                          title(font, "Rasender Roboter", 90),
-                         startButton(font, "Start", 0, 0, 150, 60),
-                         settingsButton(font, "Settings", 0, 0, 150, 60),
+                         startButton(font, "Start", 0, 0, 150, 60, [this](){createGame();}),
+                         settingsButton(font, "Settings", 0, 0, 150, 60, [this](){createSettings();}),
                          lastMousePos(0, 0),
                          isMousePressed(false)
 {
@@ -92,4 +93,15 @@ MainFrame::MainFrame() : window(sf::VideoMode({700, 400}), "SFML Application"),
     settingsButton.setColors(sf::Color(70, 130, 180), sf::Color(100, 160, 220), sf::Color(255, 100, 100));
 
     updateLayout();
+}
+
+void MainFrame::createGame(){
+    GameFrame game(window);
+    game.setCurrentPlayer(1);
+    game.setClock("00:00");
+    game.run();   
+}
+
+void MainFrame::createSettings(){//TODO
+
 }

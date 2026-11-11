@@ -6,7 +6,7 @@
 class GameFrame
 {
 public:
-    GameFrame();
+    GameFrame(sf::RenderWindow& window);
 
     void run();
 
@@ -29,7 +29,7 @@ private:
     void drawButton(const sf::FloatRect& rect, const std::string& label,
                     sf::Vector2f mouse, sf::Color base);
 
-    sf::RenderWindow window;
+    sf::RenderWindow& window;
     sf::Font font;          // must be declared before clockText
     sf::Text clockText;
 

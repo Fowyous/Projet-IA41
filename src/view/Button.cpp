@@ -1,12 +1,13 @@
 #include "Button.h"
 
 Button::Button(const sf::Font& font, const std::string& label,
-               float x, float y, float width, float height)
+               float x, float y, float width, float height, std::function<void()> toExecuteOnPressed)
     : isHovered(false), isPressed(false),
       normalColor(100, 100, 100),
       hoverColor(150, 150, 150),
       pressedColor(200, 50, 50),
-      text(font, label, 20)
+      text(font, label, 20),
+      toExecuteOnPressed(toExecuteOnPressed)
 {
     // Setup rectangle
     rect.setSize(sf::Vector2f(width, height));
@@ -39,6 +40,7 @@ void Button::update(const sf::Vector2f& mousePos, bool mousePressed)
     {
         isPressed = true;
         rect.setFillColor(pressedColor);
+        toExecuteOnPressed();
     }
     else if (isHovered)
     {

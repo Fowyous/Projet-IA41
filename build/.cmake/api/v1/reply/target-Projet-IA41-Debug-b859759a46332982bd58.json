@@ -96,7 +96,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -157,7 +158,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -181,6 +183,16 @@
 			],
 			"compileGroupIndex" : 0,
 			"path" : "src/view/Button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "src/view/GameFrame.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

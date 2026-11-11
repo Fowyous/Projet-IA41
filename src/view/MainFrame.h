@@ -17,7 +17,8 @@ private:
     Button settingsButton;
     sf::Vector2f lastMousePos;
     bool isMousePressed;
-
+    void createGame();
+    void createSettings();
     void updateLayout();
 
 public:
