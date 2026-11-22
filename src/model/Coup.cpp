@@ -6,11 +6,16 @@
 void Coup::coupChoixNbMouves(Joueur joueur, int nombre){
     //this->type = Type::choixNombreMouves; //a enlever le commentaire après implementation
     this->joueur = joueur;
-    this->NbMouves = nombre;
+    this->nbMouves = nombre;
 }
 
-void Coup::coupChoixRoute(Joueur joueur, std::vector<Directions> chemin){
+void Coup::coupChoixRoute(Joueur joueur, std::vector<Directions> chemin, Pion pion){
     //this->type = Type::choixRoute; //a enlever le commentaire après implementation
     this->joueur = joueur;
     this->chemin = chemin;
+    this->pion = pion;
+}
+
+int Coup::getNbMouves(){
+    return nbMouves;
 }
