@@ -1,3 +1,6 @@
+#ifndef COUP_H
+#define COUP_H
+
 #include <vector>
 #include "Joueur.h"
 #include "Type.h"
@@ -14,3 +17,5 @@ class Coup{
 
 
 };
+
+#endif
