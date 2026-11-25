@@ -55,6 +55,12 @@
 },
 {
   "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMoinsDuPlusFaible.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMoinsDuPlusFaible.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
   "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMouvementsMax.cpp",
   "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMouvementsMax.cpp",
   "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o"

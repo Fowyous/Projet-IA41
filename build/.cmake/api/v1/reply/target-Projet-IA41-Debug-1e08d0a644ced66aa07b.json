@@ -107,7 +107,8 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		}
 	],
@@ -179,7 +180,8 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		}
 	],
@@ -273,6 +275,16 @@
 			],
 			"compileGroupIndex" : 0,
 			"path" : "src/model/Tour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "src/model/rules/RegleMoinsDuPlusFaible.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
