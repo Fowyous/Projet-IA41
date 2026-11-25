@@ -1,8 +1,10 @@
 #ifndef RULE_H
 #define RULE_H
 
-#include "../Coup.h"
-#include "../Jeux.h"
+class Jeux;
+class Coup;
+class RuleEngine;
+
 class Rule{
     friend class RuleEngine;
     private:

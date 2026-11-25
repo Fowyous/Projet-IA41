@@ -1,5 +1,6 @@
 #include "RegleMouvementsMax.h"
 #include "../Tour.h"
+#include "../Jeux.h"
 
 bool RegleMouvementsMax::estApplicable(Jeux& jeux, Coup& coup) {
     if (jeux.getCeTour().getEtat() != Type::choixRoute || (coup.getJoueur().getEtat() != Type::choixRoute)){

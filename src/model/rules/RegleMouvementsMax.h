@@ -2,7 +2,6 @@
 #define REGLESMOUVEMENTSMAX_H
 
 #include "Rule.h"
-#include "../Coup.h"
 
 class RegleMouvementsMax : public Rule{
     bool estApplicable(Jeux& jeux, Coup& coup) override;

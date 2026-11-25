@@ -1,4 +1,5 @@
 #include "RuleEngine.h"
+#include "Rule.h"
 
 RuleEngine::~RuleEngine(){
     for (Rule* rule : rules){

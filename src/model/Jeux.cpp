@@ -2,6 +2,7 @@
 #include "PointsJoueurs.h"
 #include "Tour.h"
 #include "Joueur.h"
+#include "rules/RuleEngine.h"
 
 Jeux::Jeux() : gameOver(false), points(){
 }
@@ -36,4 +37,11 @@ Jeux::Jeux(const Jeux& o) : gameOver(o.gameOver), points(o.points){
 
 const Tour& Jeux::getCeTour() const{
     return *tours.back();
+}
+
+void Jeux::appliqueCoup(Coup coup){
+    ResultatVerification resultat = enginRegles.validate(*this, coup);
+    if (resultat.valide == true){
+        //a implementer.
+    }
 }

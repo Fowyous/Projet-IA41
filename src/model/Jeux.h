@@ -5,6 +5,7 @@
 #include "PointsJoueurs.h"
 #include "Coup.h"
 #include "Tour.h"
+#include "rules/RuleEngine.h"
 
 class Jeux{
     private:
@@ -12,6 +13,7 @@ class Jeux{
     std::vector<Tour*> tours;
     bool gameOver;
     PointsJoueurs points;
+    RuleEngine enginRegles;
     public:
     Jeux();
     ~Jeux();

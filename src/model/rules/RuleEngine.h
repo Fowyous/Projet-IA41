@@ -2,9 +2,12 @@
 #define RULEENGINE_H
 
 #include <vector>
-#include "Rule.h"
-#include "../Coup.h"
-#include "../Jeux.h"
+
+class Rule;
+class Jeux;
+class Coup;
+
+class Jeux;// pour eviter les boucles d'includes
 
 /**
  * @brief Résultat de la vérification d'un coup par la liste de règles.
@@ -17,6 +20,11 @@ struct ResultatVerification{
 class RuleEngine{
     private :
     std::vector<Rule*> rules;
+
+    public:
+    ~RuleEngine();
+    void addRule(Rule& rule);
+
     /**
      * @brief verifie la validité du coup selon tout les regles existants.
      * Pour chaque regle verifie d'abord son applicabilité, puis sa validité.
@@ -27,9 +35,6 @@ class RuleEngine{
      */
     ResultatVerification validate(Jeux& jeux, Coup& coup);
 
-    public:
-    ~RuleEngine();
-    void addRule(Rule& rule);
 };
 
 #endif

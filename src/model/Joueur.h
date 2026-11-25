@@ -8,7 +8,6 @@ class Joueur{
     private:
     Type etat;
     std::string nom;//pas de nom dupliqué autorisé. La verification doit etre faite a la classe Jeux pour ajoutJoueur.
-    int points;
 
     public :
     Joueur(std::string nom);
