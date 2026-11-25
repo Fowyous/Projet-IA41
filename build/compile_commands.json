@@ -7,6 +7,66 @@
 },
 {
   "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Coup.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Coup.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Coup.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Coup.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Entree.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Entree.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Entree.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Entree.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Jeux.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Jeux.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Jeux.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Jeux.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Joueur.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Joueur.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Joueur.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Joueur.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Pion.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Pion.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Pion.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Pion.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Plateaux.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Plateaux.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Plateaux.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Plateaux.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/PointsJoueurs.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/PointsJoueurs.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/PointsJoueurs.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/PointsJoueurs.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/Tour.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Tour.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/Tour.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/Tour.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMouvementsMax.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMouvementsMax.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/rules/RuleEngine.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RuleEngine.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RuleEngine.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/rules/RuleEngine.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
   "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/view/Button.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/view/Button.cpp",
   "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/view/Button.cpp",
   "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/view/Button.cpp.o"

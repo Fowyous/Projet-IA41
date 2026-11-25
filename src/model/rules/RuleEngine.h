@@ -3,8 +3,8 @@
 
 #include <vector>
 #include "Rule.h"
-#include "Coup.h"
-#include "Jeux.h"
+#include "../Coup.h"
+#include "../Jeux.h"
 
 /**
  * @brief Résultat de la vérification d'un coup par la liste de règles.

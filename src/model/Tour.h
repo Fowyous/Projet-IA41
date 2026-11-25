@@ -1,3 +1,6 @@
+#ifndef TOUR_H
+#define TOUR_H
+
 #include <vector>
 #include "Joueur.h"
 #include "Type.h"
@@ -8,6 +11,8 @@ class Tour{
     int ciblex, cibley;
     Type etat;//soit en mode choix temps soit en mode choix route ou les joueurs vont passer par leurs ordre dans la liste.
     public:
-    
+    Type getEtat() const;
+
 
 };
+#endif

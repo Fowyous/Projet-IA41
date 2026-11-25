@@ -25,6 +25,9 @@ class Rule{
      * @return false Le coup ne respecte pas la régle.
      */
     virtual bool validate(Jeux& jeux, Coup& coup) = 0;
+
+    public:
+    virtual ~Rule() = default;
 };
 
 #endif
