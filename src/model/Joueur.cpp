@@ -4,6 +4,7 @@ Joueur::Joueur(std::string nom){
         throw std::runtime_error("Constructeur Joueur(nom) initié sans nom");
     }
     this->nom = nom;
+    etat = Type::choixNombreMouves;
 }
 
 bool Joueur::operator==(const Joueur& o) const{
@@ -12,7 +13,4 @@ bool Joueur::operator==(const Joueur& o) const{
 
 Type Joueur::getEtat() const{
     return etat;
-}
-
-Joueur::Joueur(const Joueur& o) : etat(o.etat), nom(o.nom), points(o.points){
 }

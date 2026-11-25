@@ -9,7 +9,8 @@ bool RegleMouvementsMax::estApplicable(Jeux& jeux, Coup& coup) {
 }
 
 bool RegleMouvementsMax::validate(Jeux&, Coup& coup){
-    if(coup.getNbMouves() < coup.getChemin().size()){
+    const int nbMouvements = coup.getNbMouves();
+    if(nbMouvements < 0 || static_cast<std::size_t>(nbMouvements) < coup.getChemin().size()){
         return false;
     }
     return true;

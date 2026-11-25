@@ -13,8 +13,8 @@ class Joueur{
     public :
     Joueur(std::string nom);
     ~Joueur() = default;
-    Joueur(const Joueur& o);
-    Joueur& operator=(const Joueur& o);
+    Joueur(const Joueur& o) = default;
+    Joueur& operator=(const Joueur& o) = default;
 
     bool operator==(const Joueur& o) const;
     Type getEtat() const;

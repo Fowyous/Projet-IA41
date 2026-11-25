@@ -4,7 +4,14 @@
 #include "Directions.h"
 #include "Type.h"
 
-Coup::Coup(Joueur& joueur, int nbMouves) : joueur(joueur), nbMouves(nbMouves), type(Type::choixNombreMouves){}
+Coup::Coup(Joueur& joueur, int nbMouves, std::chrono::seconds captureHorloge) : joueur(joueur), nbMouves(nbMouves), type(Type::choixNombreMouves){
+    if (captureHorloge.count() < 0 || captureHorloge.count() > 60){
+        throw std::logic_error("horloge doit etre entre 0 et 60 secondes");
+    }
+    else{
+        temps = captureHorloge;
+    }
+}
 Coup::Coup(Joueur& joueur, std::vector<Directions> chemin, Pion& pion) : joueur(joueur), chemin(chemin), pion(pion), type(Type::choixRoute){}
 
 void Coup::coupChoixNbMouves(Joueur& joueur, int nombre){
