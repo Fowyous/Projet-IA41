@@ -11,6 +11,7 @@
 class RegleMouvementsMax; // declaration a la place d'un #include pour eviter les inclusion circulaire. Coup est déja inclus par RegleMouvementsMax
 
 class Coup{
+    friend class PassePasParMur;
     friend class RegleMouvementsMax;//peut etre a enlever
     private:
     Joueur& joueur;
