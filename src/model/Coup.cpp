@@ -38,3 +38,7 @@ Joueur& Coup::getJoueur(){
 std::vector<Directions> Coup::getChemin(){
     return chemin;
 }
+
+Type Coup::getType() const{
+    return type;
+}

@@ -23,7 +23,7 @@ class RuleEngine{
 
     public:
     ~RuleEngine();
-    void addRule(Rule& rule);
+    void addRule(Rule* rule);
 
     /**
      * @brief verifie la validité du coup selon tout les regles existants.

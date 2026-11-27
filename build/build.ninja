@@ -130,9 +130,36 @@ build CMakeFiles/Projet-IA41.dir/src/model/Tour.cpp.o: CXX_COMPILER__Projet-IA41
   OBJECT_FILE_DIR = CMakeFiles/Projet-IA41.dir/src/model
   TARGET_SUPPORT_DIR = CMakeFiles/Projet-IA41.dir
 
-build CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o: CXX_COMPILER__Projet-IA41_unscanned_Debug /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMoinsDuPlusFaible.cpp || cmake_object_order_depends_target_Projet-IA41
+build CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixChemin.cpp.o: CXX_COMPILER__Projet-IA41_unscanned_Debug /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ApplicateurChoixChemin.cpp || cmake_object_order_depends_target_Projet-IA41
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o.d
+  DEP_FILE = CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixChemin.cpp.o.d
+  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  INCLUDES = -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src
+  OBJECT_DIR = CMakeFiles/Projet-IA41.dir
+  OBJECT_FILE_DIR = CMakeFiles/Projet-IA41.dir/src/model/executeurCoups
+  TARGET_SUPPORT_DIR = CMakeFiles/Projet-IA41.dir
+
+build CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixTemps.cpp.o: CXX_COMPILER__Projet-IA41_unscanned_Debug /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ApplicateurChoixTemps.cpp || cmake_object_order_depends_target_Projet-IA41
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixTemps.cpp.o.d
+  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  INCLUDES = -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src
+  OBJECT_DIR = CMakeFiles/Projet-IA41.dir
+  OBJECT_FILE_DIR = CMakeFiles/Projet-IA41.dir/src/model/executeurCoups
+  TARGET_SUPPORT_DIR = CMakeFiles/Projet-IA41.dir
+
+build CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ExecuteurCoup.cpp.o: CXX_COMPILER__Projet-IA41_unscanned_Debug /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ExecuteurCoup.cpp || cmake_object_order_depends_target_Projet-IA41
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ExecuteurCoup.cpp.o.d
+  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  INCLUDES = -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src
+  OBJECT_DIR = CMakeFiles/Projet-IA41.dir
+  OBJECT_FILE_DIR = CMakeFiles/Projet-IA41.dir/src/model/executeurCoups
+  TARGET_SUPPORT_DIR = CMakeFiles/Projet-IA41.dir
+
+build CMakeFiles/Projet-IA41.dir/src/model/rules/PassePasParMur.cpp.o: CXX_COMPILER__Projet-IA41_unscanned_Debug /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/PassePasParMur.cpp || cmake_object_order_depends_target_Projet-IA41
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Projet-IA41.dir/src/model/rules/PassePasParMur.cpp.o.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src
   OBJECT_DIR = CMakeFiles/Projet-IA41.dir
@@ -192,7 +219,7 @@ build CMakeFiles/Projet-IA41.dir/src/view/MainFrame.cpp.o: CXX_COMPILER__Projet-
 #############################################
 # Link the executable bin/Projet-IA41
 
-build bin/Projet-IA41: CXX_EXECUTABLE_LINKER__Projet-IA41_Debug CMakeFiles/Projet-IA41.dir/src/main.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Coup.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Entree.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Jeux.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Joueur.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Pion.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Plateaux.cpp.o CMakeFiles/Projet-IA41.dir/src/model/PointsJoueurs.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Tour.cpp.o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o CMakeFiles/Projet-IA41.dir/src/model/rules/RuleEngine.cpp.o CMakeFiles/Projet-IA41.dir/src/view/Button.cpp.o CMakeFiles/Projet-IA41.dir/src/view/GameFrame.cpp.o CMakeFiles/Projet-IA41.dir/src/view/MainFrame.cpp.o
+build bin/Projet-IA41: CXX_EXECUTABLE_LINKER__Projet-IA41_Debug CMakeFiles/Projet-IA41.dir/src/main.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Coup.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Entree.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Jeux.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Joueur.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Pion.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Plateaux.cpp.o CMakeFiles/Projet-IA41.dir/src/model/PointsJoueurs.cpp.o CMakeFiles/Projet-IA41.dir/src/model/Tour.cpp.o CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixChemin.cpp.o CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixTemps.cpp.o CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ExecuteurCoup.cpp.o CMakeFiles/Projet-IA41.dir/src/model/rules/PassePasParMur.cpp.o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o CMakeFiles/Projet-IA41.dir/src/model/rules/RuleEngine.cpp.o CMakeFiles/Projet-IA41.dir/src/view/Button.cpp.o CMakeFiles/Projet-IA41.dir/src/view/GameFrame.cpp.o CMakeFiles/Projet-IA41.dir/src/view/MainFrame.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles/Projet-IA41.dir/link.d
   FLAGS = -g

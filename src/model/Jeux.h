@@ -15,7 +15,6 @@ class Jeux{
     bool gameOver;
     PointsJoueurs points;
     Plateaux plateau;
-    RuleEngine enginRegles;
     public:
     Jeux();
     ~Jeux();
@@ -27,7 +26,7 @@ class Jeux{
     const Tour& getCeTour() const;
 
     void prochainTour();
-    void appliqueCoup(Coup coup);
+    void avancerEtatTour();// a implementer
     Joueur& getGagnant();
 
 };

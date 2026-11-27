@@ -55,9 +55,27 @@
 },
 {
   "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
-  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMoinsDuPlusFaible.cpp",
-  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/RegleMoinsDuPlusFaible.cpp",
-  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMoinsDuPlusFaible.cpp.o"
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixChemin.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ApplicateurChoixChemin.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ApplicateurChoixChemin.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixChemin.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixTemps.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ApplicateurChoixTemps.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ApplicateurChoixTemps.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixTemps.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ExecuteurCoup.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ExecuteurCoup.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/executeurCoups/ExecuteurCoup.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ExecuteurCoup.cpp.o"
+},
+{
+  "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",
+  "command": "/usr/sbin/g++ -I/home/Youssef/etudes/IA41/proj/Projet-IA41/src -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/Projet-IA41.dir/src/model/rules/PassePasParMur.cpp.o -c /home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/PassePasParMur.cpp",
+  "file": "/home/Youssef/etudes/IA41/proj/Projet-IA41/src/model/rules/PassePasParMur.cpp",
+  "output": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build/CMakeFiles/Projet-IA41.dir/src/model/rules/PassePasParMur.cpp.o"
 },
 {
   "directory": "/home/Youssef/etudes/IA41/proj/Projet-IA41/build",

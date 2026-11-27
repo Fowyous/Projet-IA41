@@ -25,7 +25,7 @@ class Coup{
 
     public:
     int getNbMouves();
-
+    Type getType() const;
     Joueur& getJoueur();
 
     /**

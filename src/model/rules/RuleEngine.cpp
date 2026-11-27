@@ -7,8 +7,8 @@ RuleEngine::~RuleEngine(){
     }
 }
 
-void RuleEngine::addRule(Rule& rule){
-    rules.push_back(&rule);
+void RuleEngine::addRule(Rule* rule){
+    rules.push_back(rule);
 }
 
 ResultatVerification RuleEngine::validate(Jeux& jeux, Coup& coup){
