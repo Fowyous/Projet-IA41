@@ -3,8 +3,20 @@
 #include "Tour.h"
 #include "Joueur.h"
 #include "rules/RuleEngine.h"
+#include "rules/PassePasParMur.h"
+#include <memory>
+
+namespace {
+void ajouterRegleDeplacement(RuleEngine& moteur) {
+    auto regle = std::make_unique<PassePasParMur>();
+    moteur.addRule(*regle);
+    // Le moteur prend en charge la destruction après l'enregistrement.
+    regle.release();
+}
+}
 
 Jeux::Jeux() : gameOver(false), points(){
+    ajouterRegleDeplacement(enginRegles);
 }
 
 Jeux::~Jeux(){
@@ -16,7 +28,8 @@ Jeux::~Jeux(){
     }
 }
 
-Jeux::Jeux(const Jeux& o) : gameOver(o.gameOver), points(o.points){
+Jeux::Jeux(const Jeux& o) : gameOver(o.gameOver), points(o.points), plateau(o.plateau){
+    ajouterRegleDeplacement(enginRegles);
     for (Joueur* joueur : joueurs){
         delete joueur;
     }
