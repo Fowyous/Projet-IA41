@@ -21,6 +21,11 @@ class Tour{
     public:
     Tour(Cible but);
     /**
+     * @brief commencer un compteur de 60 secondes.
+     * 
+     */
+    void commencerHorloge();
+    /**
      * @brief ajout d'une entree ou le joueur a choisit son nombre de mouves
      * 
      * @param joueur 
@@ -34,7 +39,7 @@ class Tour{
      * @return true la liste Tour::joueurs est vide et aucun joueur n'a proposé un temps.
      * @return false la liste contient au moin un element
      */
-    bool ontDejaProposeMouves() const;
+    bool pasMouvesPropose() const;
     Type getEtat() const;
     /**
      * @brief avoir le temps écoulé

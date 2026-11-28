@@ -6,10 +6,17 @@ Type Tour::getEtat() const{
     return etat;
 }
 
-Tour::Tour(Cible but) :  but(but), etat(Type::choixNombreMouves), debutTemps(std::chrono::steady_clock::now()){}
+Tour::Tour(Cible but) :  but(but), etat(Type::choixNombreMouves){}
 
+void Tour::commencerHorloge(){
+    debutTemps = std::chrono::steady_clock::now();
+}
 int Tour::getTempsEcoule(){
     using namespace std::chrono;
+
+    if (debutTemps.time_since_epoch() == steady_clock::duration::zero()){
+        throw std::logic_error("demande de temps ecoulé avant initialisation de l'horloge");
+    }
 
     auto ecoule = duration_cast<seconds>(steady_clock::now() - debutTemps).count();
     if (ecoule <= 0){
@@ -36,7 +43,7 @@ void Tour::prochainJoueur(){
     joueurs.erase(joueurs.begin());
 }
 
-bool Tour::ontDejaProposeMouves() const{
+bool Tour::pasMouvesPropose() const{
     return !joueurs.empty();
 }
 

@@ -24,6 +24,7 @@ class Jeux{
     Plateaux& getPlateau() { return plateau; }
     const Plateaux& getPlateau() const { return plateau; }
     const Tour& getCeTour() const;
+    Tour& getCeTour();
 
     void prochainTour();
     void avancerEtatTour();// a implementer

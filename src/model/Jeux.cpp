@@ -43,3 +43,6 @@ const Tour& Jeux::getCeTour() const{
     return *tours.back();
 }
 
+Tour& Jeux::getCeTour(){
+    return *tours.back();
+}
