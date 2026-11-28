@@ -300,7 +300,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "src/model/executeurCoups/ApplicateurChoixTemps.cpp",
+			"path" : "src/model/executeurCoups/ApplicateurChoixNbMouves.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

@@ -11,6 +11,7 @@
 class RegleMouvementsMax; // declaration a la place d'un #include pour eviter les inclusion circulaire. Coup est déja inclus par RegleMouvementsMax
 
 class Coup{
+    friend class ApplicateurChoixChemin;
     friend class PassePasParMur;
     friend class RegleMouvementsMax;//peut etre a enlever
     private:
@@ -27,7 +28,7 @@ class Coup{
     int getNbMouves();
     Type getType() const;
     Joueur& getJoueur();
-
+    const Pion& getPion() const;
     /**
      * @brief Faire un coup ou on choisit le nombre de mouves.
      * 

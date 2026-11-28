@@ -42,3 +42,7 @@ std::vector<Directions> Coup::getChemin(){
 Type Coup::getType() const{
     return type;
 }
+
+const Pion& Coup::getPion() const{
+    return pion;
+}
