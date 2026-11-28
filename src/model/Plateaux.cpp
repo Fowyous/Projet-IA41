@@ -98,3 +98,30 @@ bool Plateaux::deplacer(Pion pion, Directions direction) {
     cases[depart->getY()][depart->getX()].pion.reset();
     return true;
 }
+
+std::vector<Destination> Plateaux::destinationsPossibles(int x, int y) const{
+    std::array<Directions, 4> directions = {Directions::NORD, Directions::SUD, Directions::OUEST, Directions::EST};
+    std::vector<Destination> resultats;
+
+
+    for (Directions direction : directions){
+        const Pas pas = pasPour(direction);
+        int cx = x;
+        int cy = y;
+
+        while (!cases[cy][cx].aMur(direction)){
+            const int suivantX = cx + pas.dx;
+            const int suivantY = cy + pas.dy;
+            if (cases[suivantY][suivantX].contientPion()){
+                break;
+            }
+            cx = suivantX;
+            cy = suivantY;
+        }
+        if (cx != x || cy != y){
+            resultats.push_back({direction, cx, cy});
+        }
+    }
+    return resultats;
+
+}
