@@ -3,6 +3,7 @@
 #include "ExecuteurCoup.h"
 #include "../rules/RegleMouvementsMax.h"
 #include "../rules/PassePasParMur.h"
+#include "../rules/RegleAnnonceUnique.h"
 #include "ApplicateurChoixChemin.h"
 #include "ApplicateurChoixNbMouves.h"
 #include "../Type.h"
@@ -10,6 +11,8 @@
 ExecuteurCoup::ExecuteurCoup(){
     ruleEngine.addRule(new RegleMouvementsMax());//les new vont etre detruit par le ruleengine a la fin.
     ruleEngine.addRule(new PassePasParMur());
+    ruleEngine.addRule(new RegleAnnonceUnique());
+    
     applicateurs.insert({Type::choixNombreMouves, new ApplicateurChoixNbMouves});
     applicateurs.insert({Type::choixRoute, new ApplicateurChoixChemin});
 }

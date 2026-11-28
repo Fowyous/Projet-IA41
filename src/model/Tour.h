@@ -50,6 +50,10 @@ class Tour{
      */
     int getTempsEcoule();
     int getMouvePlusFaible() const;
+    /**
+     * @brief Vérifie si le joueur a déjà annoncé un nombre de mouvements dans ce tour.
+     */
+    bool contientJoueur(const Joueur& joueur) const;
 
 
 };

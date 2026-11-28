@@ -50,3 +50,12 @@ bool Tour::pasMouvesPropose() const{
 int Tour::getMouvePlusFaible() const{
     return joueurs.front().nbMouves;
 }
+
+bool Tour::contientJoueur(const Joueur& joueur) const {
+    for (const MouvesJoueurs& entree : joueurs) {
+        if (*entree.joueur == joueur) {
+            return true;
+        }
+    }
+    return false;
+}
