@@ -96,3 +96,54 @@ Cible Jeux::choisirProchaineCible() const {
     choisie.setBut(true);
     return choisie;
 }
+
+Joueur& Jeux::getGagnant() {
+    if (joueurs.empty()) {
+        throw std::logic_error("Aucun joueur dans la partie.");
+    }
+
+    Joueur* meilleur = joueurs.front();
+    int meilleurScore = points.getReussiteTotal(*meilleur);
+
+    for (std::size_t i = 1; i < joueurs.size(); ++i) {
+        int score = points.getReussiteTotal(*joueurs[i]);
+        if (score > meilleurScore) {
+            meilleur = joueurs[i];
+            meilleurScore = score;
+        }
+    }
+
+    return *meilleur;
+}
+
+void Jeux::avancerEtatTour() {
+    if (tours.empty()) {
+        return;
+    }
+
+    Tour& tour = getCeTour();
+
+    switch (tour.getEtat()) {
+        case choixNombreMouves:
+            // Tour passe seul en phase choixRoute quand le temps est écoulé.
+            // L'appel vérifie l'horloge ; la valeur retournée n'est pas utilisée ici.
+            (void)tour.getTempsEcoule();
+            break;
+
+        case choixRoute:
+            // Personne n'a annoncé de nombre de mouvements : on passe au tour suivant.
+            if (tour.pasMouvesPropose()) {
+                prochainTour();
+            }
+            break;
+
+        case attendreTour:
+            break;
+
+    }
+}
+
+void Jeux::enregistrerVictoire(Joueur& gagnant) {
+    points.sauvegardePoints(static_cast<int>(tours.size()), gagnant);
+    prochainTour();
+}

@@ -6,5 +6,7 @@ void ApplicateurChoixChemin::appliquer(Coup& coup, Jeux& jeux){
     for (Directions direction : coup.getChemin()) {
         plateau.deplacer(coup.getPion(), direction);
     }
+    jeux.enregistrerVictoire(coup.getJoueur());
+    jeux.prochainTour();
     
 }

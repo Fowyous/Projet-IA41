@@ -29,9 +29,28 @@ class Jeux{
     Tour& getCeTour();
 
     void prochainTour();
-    void avancerEtatTour();// a implementer
+    /**
+     * @brief avance l'etat du tour si besoin
+     * doit etre appelé répetitivement ~1secondes
+     * 
+     */
+    void avancerEtatTour();
+    /**
+     * @brief Enregistrer la victoire d'un seul tour.
+     * 
+     * la victoire est ajouté dans les points joueur et utilisé pour voir qui a gagné le jeux dans getGagnant().
+     * @param gagnant 
+     */
+    void enregistrerVictoire(Joueur& gagnant);
+    /**
+     * @brief Renvoit le joueur gagnant après comparaison des points de chaque joueur.
+     * Si deux joueurs sont en égalité, le premier joueur dans la list est pris.
+     * 
+     * @return Joueur& le gagnant
+     */
     Joueur& getGagnant();
 
 
 };
+
 #endif

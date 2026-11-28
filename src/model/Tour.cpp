@@ -39,9 +39,12 @@ void Tour::ajoutJoueur(Joueur& joueur, int nbMouves){
     joueurs.insert(position, {&joueur, nbMouves});
 }
 
-void Tour::prochainJoueur(){
-    joueurs.erase(joueurs.begin());
+void Tour::prochainJoueur() {
+    if (!joueurs.empty()) {
+        joueurs.erase(joueurs.begin());
+    }
 }
+
 
 bool Tour::pasMouvesPropose() const{
     return !joueurs.empty();
