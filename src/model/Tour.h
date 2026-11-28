@@ -50,6 +50,7 @@ class Tour{
      */
     int getTempsEcoule();
     int getMouvePlusFaible() const;
+    const Cible& getBut() const;
     /**
      * @brief Vérifie si le joueur a déjà annoncé un nombre de mouvements dans ce tour.
      */

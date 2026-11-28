@@ -22,3 +22,12 @@
 5603	8628	1795865813210513190	CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixNbMouves.cpp.o	187132823434abce
 9	1136	1795865999462837508	CMakeFiles/Projet-IA41.dir/src/model/rules/RegleAnnonceUnique.cpp.o	453c13f8c1468fbd
 1136	1559	1795866000593895348	bin/Projet-IA41	41dc7dbc62e13dad
+10	3927	1795866501446221145	CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixChemin.cpp.o	f860f2667f8c127d
+10	4172	1795866501443451379	CMakeFiles/Projet-IA41.dir/src/model/Tour.cpp.o	296fc6ca2468418a
+3927	8235	1795866505360096827	CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ApplicateurChoixNbMouves.cpp.o	187132823434abce
+6	8616	1795866501440118063	CMakeFiles/Projet-IA41.dir/src/model/Jeux.cpp.o	8ad74b70ae8b6b74
+4172	9657	1795866505603428842	CMakeFiles/Projet-IA41.dir/src/model/executeurCoups/ExecuteurCoup.cpp.o	470a2e8ebcb27ef7
+8242	10793	1795866509673406793	CMakeFiles/Projet-IA41.dir/src/model/rules/PassePasParMur.cpp.o	a5e7a2bbe2712eb6
+8616	11046	1795866510049461984	CMakeFiles/Projet-IA41.dir/src/model/rules/RegleAnnonceUnique.cpp.o	453c13f8c1468fbd
+9661	11559	1795866511093399100	CMakeFiles/Projet-IA41.dir/src/model/rules/RegleMouvementsMax.cpp.o	e77e7190a368af7e
+11559	12481	1795866512993222236	bin/Projet-IA41	41dc7dbc62e13dad

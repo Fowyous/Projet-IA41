@@ -59,3 +59,6 @@ bool Tour::contientJoueur(const Joueur& joueur) const {
     }
     return false;
 }
+const Cible& Tour::getBut() const{
+    return but;
+}

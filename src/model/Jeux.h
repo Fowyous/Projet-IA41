@@ -7,6 +7,7 @@
 #include "Tour.h"
 #include "Plateaux.h"
 #include "rules/RuleEngine.h"
+#include "Cible.h"
 
 class Jeux{
     private:
@@ -15,6 +16,7 @@ class Jeux{
     bool gameOver;
     PointsJoueurs points;
     Plateaux plateau;
+    Cible choisirProchaineCible() const;
     public:
     Jeux();
     ~Jeux();
@@ -29,6 +31,7 @@ class Jeux{
     void prochainTour();
     void avancerEtatTour();// a implementer
     Joueur& getGagnant();
+
 
 };
 #endif
